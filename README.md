@@ -7,7 +7,6 @@ This package provides a LlamaIndex integration for MobileClip, a lightweight CLI
 ## Features
 
 - Uses the original MobileClip implementation directly (not using openclip)
-- Downloads weights on demand rather than including them in the repository
 - Implements both text and image embedding functionality
 - Follows the same pattern as the existing CLIP embeddings implementation
 
@@ -17,6 +16,7 @@ The package is designed to work with an existing LlamaIndex installation. Make s
 
 - torch
 - PIL
+- llama_index
 - mobileclip
 
 ## How to Use
